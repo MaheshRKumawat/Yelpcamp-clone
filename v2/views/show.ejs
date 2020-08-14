@@ -1,0 +1,14 @@
+<%-include("partials/header")-%>
+
+<div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <h1 style="text-align: center"><%=campground.name%></h1>
+            <p><%=campground.description%></p>
+        </div>
+    </header>
+</div>
+
+<img src="<%=campground.image%>">
+
+<%-include("partials/footer")-%>
