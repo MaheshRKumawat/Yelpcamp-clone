@@ -35,7 +35,7 @@ app.use(function(req,res,next){
     next();
 });
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp_v9', {
+mongoose.connect('mongodb://localhost:27017/yelp_camp_v8', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
